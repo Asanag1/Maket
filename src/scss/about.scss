@@ -1,0 +1,37 @@
+.about{
+  width: 100%;
+  margin-top: 78px;
+  .about__container{
+   display: flex;
+    align-items: center;
+    max-width: 1140px;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0 42px 114px rgba(13,16,37,0.06);
+  }
+  .about__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    height: 126px;
+    border-right: solid 2px  #EEEFF2;
+  }
+  .about__card:last-child{
+    border-right: none;
+  }
+  .about__card-description{
+    margin-left: 37px;
+    display: flex;
+    flex-direction: column;
+  }
+  .about__card-title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color:  #0B132A;
+
+  }
+}

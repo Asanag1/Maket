@@ -1,0 +1,111 @@
+.plan{
+  width: 100%;
+  padding-top: 80px;
+.plan__title {
+  text-align: center;
+  margin: 0;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0B132A;
+  }
+  .plan__description{
+    margin: 20px auto 60px;
+    text-align: center;
+    width: 555px;
+    color: #4F5665;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .plane__container{
+    display: flex;
+    max-width: min-content;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .plane__block{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 760px;
+    border: solid 2px #DDDDDD;
+    border-radius: 10px;
+    text-align: center;
+    transition: .3s;
+  }
+  .plane__block:not(:first-child) {
+    margin-left: 50px;
+  }
+
+  .plane__block:hover {
+    border: solid 2px #F53838;
+  }
+  .plan__block-img{
+    display: block;
+    margin: 80px auto 30px;
+    width: 145px;
+    height: 165px;
+  }
+  .plan__block-title{
+    font-style: normal;
+    font-weight: 999;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+  }
+  .plan__block-list{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto auto;
+    max-width: min-content;
+    width: 100%;
+    padding-left: 32px;
+    text-align: initial;
+  }
+  .plan__list-item{
+    min-width: 206px;
+    display: block;
+    position: relative;
+    color: #4F5665;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .plan__list-item::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 10px;
+    background: url(../images/plane/Vector.png)  no-repeat;
+    position: absolute;
+    top: 50%;
+    left: -32px;
+    transform: translateY(-50%);
+  }
+  .plan__block-price{
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+  }
+  .plane__card-button {
+    width: 178px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #F53838;
+    margin: 0 auto 64px;
+    box-shadow: 0 17px 54px rgba(245, 56, 56, 0.35);
+  }
+  .plan__span{
+    font-weight: 999;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+  }
+}
